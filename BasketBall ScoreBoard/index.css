@@ -1,0 +1,43 @@
+body {
+    background-image: url("bsk.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+h4{
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+h3{
+    color: white;
+    background: hsl(240, 70%, 4%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h5{
+    color: white;
+    background: hwb(0 4% 1%);
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+button{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
